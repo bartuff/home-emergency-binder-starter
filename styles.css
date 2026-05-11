@@ -111,7 +111,8 @@ h2 {
 }
 
 .details,
-.note {
+.note,
+.catalog {
   padding: 78px 0;
   border-top: 2px solid rgba(24, 33, 51, 0.14);
 }
@@ -171,6 +172,17 @@ article p,
   width: 100%;
   border: 6px solid var(--line);
   background: var(--panel);
+}
+
+.catalog {
+  display: grid;
+  gap: 14px;
+  max-width: 720px;
+}
+
+.catalog p {
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 @media (max-width: 900px) {
